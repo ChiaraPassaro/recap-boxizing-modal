@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Display and BoxSizing</title>
+    <link rel="stylesheet" href="css/style-display-boxsizing.css">
+  </head>
+  <body>
+
+    <!-- Proprietà BoxSizing - Cambiamo il box model con css! -->
+    <div class="content-box">
+      <div>Content Box</div>
+    </div>
+    <div class="border-box">
+      <div>Border Box</div>
+    </div>
+    <!-- / Proprietà BoxSizing -->
+
+    <!-- Proprietà Display - Cambiamo la proprietà display con css!-->
+    <div class="display-none">
+      <p>Questo testo non si vedr&grave;</p>
+    </div>
+
+    <div class="container">
+      <p>
+        Questo è un paragrafo <span>e questo uno span default inline</span>
+      </p>
+      <p>
+        Questo è un paragrafo <span class="display-block">e questo span &egrave; display block</span>
+      </p>
+    </div>
+
+    <ul class="container">
+      <li class="display-inline bg-green">Questo list item non andr&agrave; da capo</li>
+      <li class="display-inline bg-green">Questo list item non andr&agrave; da capo</li>
+      <li class="display-inline bg-green">Questo list item non andr&agrave; da capo</li>
+    </ul>
+
+    <ul class="container">
+      <li class="display-inline-block bg-green">Questo list item non andr&agrave; da capo</li>
+      <li class="display-inline-block bg-green">Questo list item non andr&agrave; da capo</li>
+      <li class="display-inline-block bg-green">Questo list item non andr&agrave; da capo</li>
+    </ul>
+    <!-- / Proprietà Display -->
+
+  </body>
+</html>
